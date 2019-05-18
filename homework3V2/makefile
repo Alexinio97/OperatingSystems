@@ -5,4 +5,4 @@ main.o : main.c
 myHandlers.o : myHandlers.c
 	gcc -c myHandlers.c	
 clean : 
-	rm -f *.
+	rm -f *.o
